@@ -1304,7 +1304,15 @@ a4 { font-weight:bold;
     </a5>
 </div>
 
-
+	<audio id="hm">
+		<source src="hm.m4a" type="audio/mpeg">
+	</audio>
+	<audio id="um">
+		<source src="um.m4a" type="audio/mpeg">
+	</audio>	
+		<audio id="ang">
+		<source src="ang.m4a" type="audio/mpeg">
+	</audio>
  <!-- 힌트영역 -->
 	 <h7  id="hinttxt" style="color: #531616;">힌트를 사용하면 게임 플레이의 재미가 감소합니다. 그래도 확인 하시겠습니까?</h7>
 	 	<h10 id="yaa">예</h10>
@@ -1653,7 +1661,7 @@ window.onmousemove = function(){
 
 	backk2.onclick = function(){
 		backk2.style.display = "none"
-		but.play();
+		ang.play();
 		bx.style.display = "inline"
 		jungg1.style.display = "inline"
 		next4.style.display = "inline"
@@ -1683,7 +1691,7 @@ window.onmousemove = function(){
 		next7.style.display = "inline"
 			}
 	next7.onclick = function(){
-		but.play();
+		um.play();
 		jungg4.style.display = "none"
 		jungg5.style.display = "inline"
 		next7.style.display = "none"
@@ -1726,7 +1734,7 @@ window.onmousemove = function(){
 		next12.style.display = "inline"
 			}
 	next12.onclick = function(){
-		but.play();
+		um.play();
 		face2.style.display = "none"
 		face4.style.display = "inline"		
 		jungg9.style.display = "none"
